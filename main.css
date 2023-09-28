@@ -310,7 +310,7 @@ nav{
     text-decoration: underline;
  }
  .prods{
-    /* display: flex; */
+    display: flex;
     width: 50%;
     margin: 10px auto;
     padding: 36px;
@@ -320,7 +320,10 @@ nav{
  .prods h1{
     height: fit-content;
     margin: 0;
-    /* transform: rotate(270deg); */
+    transform: rotate(270deg);
+ }
+ .small-desc{
+    display: none;
  }
  .prod-images{
     display: flex;
@@ -388,6 +391,7 @@ nav{
             margin: 0;
             /* background-image: url(); */
             /* width: 586px; */
+            width: 100%;
         }
         /* .landing{
             background-color: #8B572A;
@@ -405,7 +409,7 @@ nav{
             background-image: url(./assets/bg-img.avif);
             /* width: 100vw; */
             /* height: 600px; */
-            height: 800px;
+            height: 1200px;
             background-size: cover;
             background-repeat: no-repeat;
             margin: 0 auto;
@@ -421,7 +425,7 @@ nav{
             display: flex;
             justify-content: space-between;
             align-items: center;
-            /* width: 100%; */
+            width: 100%;
             background-color: rgba(10, 68, 154, 0.611);
             padding: 0 15px 0 0;
         }
@@ -489,8 +493,8 @@ nav{
         }
         .hero-content{
             /* background-color: black; */
-            /* width: 100%; */
-            height: 500px;
+            width: 100%;
+            height: 800px;
             margin: 100px auto 40px;
             /* margin: 100px 0 40px; */
             display: flex;
@@ -502,8 +506,8 @@ nav{
             color: black;
             padding: 16px;
             width: 100%;
-            height: 500px;
-            /* width: 65%; */
+            height: 700px;
+            width: 100%;
             font-weight: lighter;
             position: relative;
         }
@@ -701,7 +705,7 @@ nav{
             text-decoration: underline;
          }
          .prods{
-            /* display: flex; */
+            display: block;
             width: 80%;
             margin: 10px auto;
             /* margin: 10px 0; */
@@ -717,10 +721,11 @@ nav{
          }
          .small-desc{
             text-align: center;
+            display: unset;
          }
          /* .pord-desc{
             display: none;
-         } */
+         } */ 
          .prod-images{
             display: flex;
             flex-wrap: wrap;
