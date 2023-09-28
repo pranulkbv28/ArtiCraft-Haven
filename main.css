@@ -378,7 +378,7 @@ nav{
     fill: white;
  }
 
- @media (min-width:586px) {
+ @media (max-width:586px) {
     *{
         scroll-behavior: smooth;
         box-sizing: border-box;
